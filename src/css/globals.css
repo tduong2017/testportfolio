@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@import "./theme.css";
+
+@layer base {
+  html, body {
+    @apply bg-background text-foreground font-primary;
+  }
+
+  body {
+    @apply p-6 text-base;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold font-secondary;
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-3xl;
+  }
+
+  h4 {
+    @apply text-2xl;
+  }
+
+  a {
+    @apply text-primary;
+  }
+}

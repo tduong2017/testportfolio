@@ -1,0 +1,28 @@
+@import "./fonts.css";
+
+@theme {
+  --color-black: #222222;
+  --color-white: #F5F5F5;
+  --color-grey: #545454;
+  --color-green: #29AA35;
+  --color-yellow: #FFBF00;
+  --color-blue: #2286EA;
+  --color-pink: #F5989D;
+
+  --color-background: var(--color-white);
+  --color-foreground: var(--color-black);
+  --color-primary: var(--color-green);
+
+  --font-sans-serif: 'Campton', sans-serif;
+  --font-monospace: 'Operator Mono SSm', monospace;
+
+  --font-primary: var(--font-monospace);
+  --font-secondary: var(--font-sans-serif);
+}
+
+@variant dark {
+  @theme {
+    --color-background: var(--color-black);
+    --color-foreground: var(--color-white);
+  }
+}
